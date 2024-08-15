@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.slider-img {
+    display: none;
+}
+
+.active-one {
+    display: block;
+}
+
+.slider-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    background: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: yellow;
+    transition: 0.8s;
+}
