@@ -1,3 +1,4 @@
+/*SLIDER 1*/
 const btnNext = document.querySelector('.btn-next')
 const btnBefore = document.querySelector('.btn-before')
 const slides = document.getElementsByClassName('slider-img')
